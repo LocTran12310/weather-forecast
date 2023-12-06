@@ -1,4 +1,5 @@
 import React from 'react';
+import SvgClose from './SvgClose';
 
 type Props = {
   children: React.ReactNode;
@@ -38,7 +39,7 @@ const Card = (props: Props) => {
           className={`absolute -top-2 -right-2 bg-red-500 rounded-full h-5 w-5 flex items-center justify-center text-white transition duration-50 ${classClearable}`}
           onClick={onClose}
         >
-          x
+          <SvgClose />
         </div>
       )}
       {children}
