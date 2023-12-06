@@ -19,7 +19,11 @@ Before you begin, ensure you have the following installed on your machine:
 
     `cd weather-forecast`
 
-3.  Install dependencies:
+3.  Checkout the `develop` branch:
+
+    `git checkout develop`
+
+4.  Install dependencies:
 
     `npm install`
 
