@@ -46,3 +46,9 @@ This will start the development server, and you can access the app at [http://lo
 ### GeoDBCity API
 
 - Documentation: [GeoDBCity API Documentation](https://geodb.dev/docs)
+
+---
+
+## View the Deployed App
+
+You can also visit the deployed version of the app at [https://weather-forecast-6588b.web.app/](https://weather-forecast-6588b.web.app/).
