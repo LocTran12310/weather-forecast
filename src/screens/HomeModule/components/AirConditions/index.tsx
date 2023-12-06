@@ -4,23 +4,13 @@ import CardSection from '../CardSection';
 import { roundTemp } from '../CurrentWeather';
 import AirConditionsItem from './AirConditionsItem';
 
-type Props = {};
-
-const ButtonSeemore = () => {
-  return (
-    <button className='bg-gradient-to-r from-[#5A3FC5] to-[#4628B9] to-70% text-sm text-white px-3 py-0.5 rounded-full hover:bg-opacity-[0.8]'>
-      See more
-    </button>
-  );
-};
-
 const unitWindMap = {
   [Unit.EData.standard]: 'm/s',
   [Unit.EData.metric]: 'm/s',
   [Unit.EData.imperial]: 'mph',
 };
 
-const AirConditions = (props: Props) => {
+const AirConditions = () => {
   const currentWeather = useAppStore((state) => state.currentWeather);
   const settingConfig = useAppStore((state) => state.settingConfig);
 

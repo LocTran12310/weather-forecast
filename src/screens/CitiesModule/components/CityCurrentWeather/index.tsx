@@ -3,9 +3,7 @@ import TodayForecast from './TodayForecast';
 import CurrentWeather from './CurrentWeather';
 import ThreeDayForecast from './ThreeDayForecast';
 
-type Props = {};
-
-const CityCurrentInfo = (props: Props) => {
+const CityCurrentInfo = () => {
   const recents = useAppStore((state) => state.recents);
   const idRecentActive = useAppStore((state) => state.idRecentActive);
 

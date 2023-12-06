@@ -1,5 +1,3 @@
-import Spinning from '@app/components/Spinning';
-import { useAppStore } from '@app/stores';
 import React from 'react';
 type Props = {
   children?: React.ReactNode;

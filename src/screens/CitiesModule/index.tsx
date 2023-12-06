@@ -3,9 +3,7 @@ import CitiesRecents from './components/CitiesRecents';
 import CityCurrentInfo from './components/CityCurrentWeather';
 import { useAppStore } from '@app/stores';
 
-type Props = {};
-
-const CitiesModule = (props: Props) => {
+const CitiesModule = () => {
   const idRecentActive = useAppStore((state) => state.idRecentActive);
   const setRecentActive = useAppStore((state) => state.setRecentActive);
   const recents = useAppStore((state) => state.recents);

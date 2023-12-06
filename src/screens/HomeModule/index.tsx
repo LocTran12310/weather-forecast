@@ -3,9 +3,7 @@ import CurrentWeather from './components/CurrentWeather';
 import FiveDayForecast from './components/FiveDayForecast';
 import TodayForecast from './components/TodayForecast';
 
-type Props = {};
-
-const HomeModule = (props: Props) => {
+const HomeModule = () => {
   return (
     <>
       <div className='flex flex-col w-full gap-3'>

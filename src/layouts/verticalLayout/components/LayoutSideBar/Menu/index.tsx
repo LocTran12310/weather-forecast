@@ -2,8 +2,6 @@ import { APP_ROUTE } from '@app/constants/route.constants';
 import React, { memo } from 'react';
 import MenuItem from '../MenuItem';
 
-type Props = {};
-
 export interface IMenuSideBar {
   label: React.ReactNode;
   key: string;
@@ -75,7 +73,7 @@ const menu: IMenuSideBar[] = [
   },
 ];
 
-const Menu = (props: Props) => {
+const Menu = () => {
   return (
     <div className='flex flex-row lg:flex-col justify-center items-center gap-10 lg:gap-6'>
       {menu.map((item) => {

@@ -1,9 +1,7 @@
 import General from './components/General';
 import Units from './components/Units';
 
-type Props = {};
-
-const SettingModule = (props: Props) => {
+const SettingModule = () => {
   return (
     <>
       <div className='w-full'>

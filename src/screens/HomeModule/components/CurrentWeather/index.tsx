@@ -1,9 +1,7 @@
 import SvgReload from '@app/screens/CitiesModule/components/CityCurrentWeather/CurrentWeather/SvgReload';
 import { Unit, useAppStore } from '@app/stores';
 
-type Props = {};
-
-export const roundTemp = (temp: number, decimal?: number) => {
+export const roundTemp = (temp: number) => {
   if (typeof temp !== 'number') return temp;
   return Math.round(temp);
 };
@@ -14,7 +12,7 @@ const unitTempMap = {
   [Unit.EData.imperial]: 'F',
 };
 
-const CurrentWeather = (props: Props) => {
+const CurrentWeather = () => {
   const currentWeather = useAppStore((state) => state.currentWeather);
   const settingConfig = useAppStore((state) => state.settingConfig);
   const mainWeather = currentWeather?.weather?.[0];

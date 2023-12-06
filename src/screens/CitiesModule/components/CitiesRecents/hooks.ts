@@ -1,5 +1,4 @@
 import { useAppStore } from '@app/stores';
-import { useState } from 'react';
 
 const useCitiesRecents = () => {
   const recents = useAppStore((state) => state.recents);

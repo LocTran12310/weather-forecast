@@ -1,10 +1,4 @@
-import { useNavigate } from 'react-router-dom';
-
 const Page500 = () => {
-  const navigate = useNavigate();
-  const handleBack = () => {
-    navigate('/');
-  };
   return (
     <div className='h-screen'>
       500

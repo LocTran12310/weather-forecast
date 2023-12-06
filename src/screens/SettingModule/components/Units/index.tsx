@@ -1,9 +1,7 @@
 import CardSection from '@app/screens/HomeModule/components/CardSection';
 import useUnits from './hooks';
 
-type Props = {};
-
-const Units = (props: Props) => {
+const Units = () => {
   const { units, temperatureUnit, handleOnUnitClick } = useUnits();
 
   return (

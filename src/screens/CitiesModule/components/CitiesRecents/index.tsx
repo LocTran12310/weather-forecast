@@ -2,9 +2,7 @@ import Card from '@app/components/Card';
 import CityItem from '../CityItem';
 import useCitiesRecents from './hooks';
 
-type Props = {};
-
-const CitiesRecents = (props: Props) => {
+const CitiesRecents = () => {
   const { idRecentActive, items, handleOnClick, handleOnClose } =
     useCitiesRecents();
 

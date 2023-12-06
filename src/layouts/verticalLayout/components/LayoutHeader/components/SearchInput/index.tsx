@@ -1,9 +1,7 @@
 import AsyncSelect from 'react-select/async';
 import useSearchInput, { DEFAULT_CURRENT_LOCATION_OPTIONS } from './hooks';
 
-type Props = {};
-
-const SearchInput = (props: Props) => {
+const SearchInput = () => {
   const { handleOnChange, loadOptions } = useSearchInput();
 
   return (

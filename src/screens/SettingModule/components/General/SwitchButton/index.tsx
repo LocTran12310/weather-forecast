@@ -1,9 +1,6 @@
-import { useState } from 'react';
 import useGeneralSwitch from './hooks';
 
-type Props = {};
-
-const SwitchButton = (props: Props) => {
+const SwitchButton = () => {
   const { state, handleOnClick } = useGeneralSwitch();
 
   const className = state

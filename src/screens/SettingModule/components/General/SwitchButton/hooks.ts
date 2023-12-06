@@ -6,8 +6,6 @@ import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { toast } from 'react-toastify';
 
-type Props = {};
-
 const useGeneralSwitch = () => {
   const settingConfig = useAppStore((state) => state.settingConfig);
   const setSettingConfig = useAppStore((state) => state.setSettingConfig);

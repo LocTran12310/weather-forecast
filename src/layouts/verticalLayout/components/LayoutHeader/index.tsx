@@ -1,8 +1,6 @@
 import SearchInput from './components/SearchInput';
 
-type Props = {};
-
-const LayoutHeader = (props: Props) => {
+const LayoutHeader = () => {
   return (
     <>
       <div className='grid grid-cols-[auto_auto_1fr] bg-app-bg-grey lg:flex  lg:bg-transparent rounded-xl items-center'>

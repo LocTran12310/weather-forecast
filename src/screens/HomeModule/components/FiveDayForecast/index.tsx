@@ -5,9 +5,7 @@ import { Fragment } from 'react';
 import CardSection from '../CardSection';
 import { roundTemp } from '../CurrentWeather';
 
-type Props = {};
-
-const FiveDayForecast = (props: Props) => {
+const FiveDayForecast = () => {
   const hourlyForecast = useAppStore((state) => state.hourlyForecast);
 
   const items = getUniqueDays(hourlyForecast?.list || [])?.slice(0, 5);

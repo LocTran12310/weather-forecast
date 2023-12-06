@@ -1,6 +1,5 @@
 import { isLastIndex } from '@app/core/common';
 import { DateJS } from '@app/core/dayjs';
-import CardSection from '@app/screens/HomeModule/components/CardSection';
 import { roundTemp } from '@app/screens/HomeModule/components/CurrentWeather';
 import { HourlyForecast } from '@app/types/hourly-forecast';
 import { Fragment } from 'react';

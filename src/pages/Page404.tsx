@@ -1,10 +1,4 @@
-import { useNavigate } from 'react-router-dom';
-
 const Page404 = () => {
-  const navigate = useNavigate();
-  const handleBack = () => {
-    navigate('/');
-  };
   return (
     <div className='w-full h-screen flex justify-center items-center'>
       404

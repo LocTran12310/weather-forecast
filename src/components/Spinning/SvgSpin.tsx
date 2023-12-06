@@ -1,8 +1,4 @@
-import React from 'react';
-
-type Props = {};
-
-const SvgSpin = (props: Props) => {
+const SvgSpin = () => {
   return (
     <svg
       id='spin'

@@ -1,9 +1,7 @@
 import CardSection from '@app/screens/HomeModule/components/CardSection';
 import SwitchButton from './SwitchButton';
 
-type Props = {};
-
-const General = (props: Props) => {
+const General = () => {
   return (
     <>
       <div className='font-semibold text-xl my-3'>General</div>

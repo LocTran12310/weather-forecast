@@ -5,9 +5,7 @@ import CardSection from '../CardSection';
 import { roundTemp } from '../CurrentWeather';
 import { isLastIndex } from '@app/core/common';
 
-type Props = {};
-
-const TodayForecast = (props: Props) => {
+const TodayForecast = () => {
   const hourlyForecast = useAppStore((state) => state.hourlyForecast);
   const items = hourlyForecast?.list?.slice(0, 10);
 

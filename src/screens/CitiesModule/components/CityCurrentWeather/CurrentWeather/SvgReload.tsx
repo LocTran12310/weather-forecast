@@ -1,6 +1,4 @@
-type Props = {};
-
-const SvgReload = (props: Props) => {
+const SvgReload = () => {
   const className = 'svg-reload';
   return (
     <svg

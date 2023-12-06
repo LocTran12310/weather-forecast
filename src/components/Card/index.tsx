@@ -4,7 +4,6 @@ type Props = {
   children: React.ReactNode;
   hoverable?: boolean;
   className?: string;
-  loading?: boolean;
   isActive?: boolean;
   clearable?: boolean;
   onClick?: () => void;
@@ -16,7 +15,6 @@ const Card = (props: Props) => {
     hoverable = false,
     isActive = false,
     className = '',
-    loading = false,
     clearable = false,
 
     children,
